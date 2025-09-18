@@ -1,0 +1,17 @@
+{
+  "routes": [
+    {
+      "src": "/tiers.xml",
+      "dest": "/api/tiers"
+    },
+    {
+      "src": "/health",
+      "dest": "/api/health"
+    }
+  ],
+  "functions": {
+    "api/*.js": {
+      "runtime": "nodejs18.x"
+    }
+  }
+}
